@@ -1,0 +1,22 @@
+References for SQL (cumulative):
+
+/***********************************************************************************
+                              SQL Reference list
+ ***********************************************************************************/
+
+//General Commands
+SELECT <col1>,<col2>,<col3>,...       //Selects columns/expressions to be output
+FROM <table1>                         //Host table
+WHERE <exp>                           //Query
+IN (<list>)                           //Queries through list elements
+LIKE <exp>                            //Checks similarity? Used for strings
+AND/OR <exp>                          //Logical and/or
+
+//Functions
+CONCAT(<string1>,<string2>,<string3>) //concatenates strings (maybe numbers?)
+REPLACE(<source>,<rep>,<with>)        //replaces string from source
+
+//Syntax and operators
+>=,<=, !=, =, +, -, *, /,...          //All operate as expected
+'%c'                                  //Wildcard preceding c
+'_c'                                  //Single character wildcard
